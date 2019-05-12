@@ -4,6 +4,9 @@
 </h1>
 <br>
 [![Coverage Status](https://coveralls.io/repos/github/Tobias-Schoch/Uno/badge.svg)](https://coveralls.io/github/Tobias-Schoch/Uno)
+<br>
+
+
 ## 📦 The Project
 
 This project is available at the google play store: 
