@@ -26,7 +26,6 @@ You can find it at https://github.com/Tobias-Schoch/HexBinary-Android.git
 - Convert Hex to Dez and Dez to Hex
 - Convert Bin to Dez and Dez to Bin
 - Flat UI
-https://lh3.googleusercontent.com/KJSRYle8nJ6NB-33n_xYvBKX84K_Deu9tOtbnPgOmdsl8jx5fPPcEBxWA_WU2Ca8058=s180-rw
 
 <br>
 
