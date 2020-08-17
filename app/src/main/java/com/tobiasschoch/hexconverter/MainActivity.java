@@ -1,4 +1,4 @@
-package com.example.tobiasschoch.calhex;
+package com.tobiasschoch.hexconverter;
 
 import android.app.Activity;
 import android.content.DialogInterface;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import java.math.BigInteger;
 
-public class HomeActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends Activity implements View.OnClickListener {
 
     private TextView nul;
     private TextView eins;
@@ -53,7 +53,7 @@ public class HomeActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_main);
 
         nul = findViewById(R.id.nul);
         eins = findViewById(R.id.eins);
