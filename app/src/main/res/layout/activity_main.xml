@@ -3,8 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@android:color/black"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
 
     <TextView
         android:id="@+id/vor"
@@ -57,21 +59,21 @@
                 android:id="@+id/bindez"
                 style="@style/ActionButtonStyle"
                 android:fontFamily="@font/helveticalight"
-                android:text="Bin   Dez"
+                android:text="Bin\nDec"
                 android:textSize="26sp" />
 
             <TextView
                 android:id="@+id/hexdez"
                 style="@style/ActionButtonStyle"
                 android:fontFamily="@font/helveticalight"
-                android:text="Hex   Dez"
+                android:text="Hex\nDec"
                 android:textSize="26sp" />
 
             <TextView
                 android:id="@+id/hexbin"
                 style="@style/ActionButtonStyle"
                 android:fontFamily="@font/helveticalight"
-                android:text="Hex   Bin"
+                android:text="Hex\nBin"
                 android:textSize="26sp" />
 
         </LinearLayout>
@@ -93,21 +95,21 @@
                 android:id="@+id/bin"
                 style="@style/ActionButtonStyle"
                 android:fontFamily="@font/helveticalight"
-                android:text="Dez   Bin"
+                android:text="Dec\nBin"
                 android:textSize="26sp" />
 
             <TextView
                 android:id="@+id/hex"
                 style="@style/ActionButtonStyle"
                 android:fontFamily="@font/helveticalight"
-                android:text="Dez   Hex"
+                android:text="Dec\nHex"
                 android:textSize="26sp" />
 
             <TextView
                 android:id="@+id/binhex"
                 style="@style/ActionButtonStyle"
                 android:fontFamily="@font/helveticalight"
-                android:text="Bin   Hex"
+                android:text="Bin\nHex"
                 android:textSize="26sp" />
 
         </LinearLayout>
